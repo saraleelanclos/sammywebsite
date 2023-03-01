@@ -32,12 +32,14 @@ body {
     max-width: 100%;
     height: auto;
   }
-  
+
   #logo{ 
     position:fixed; 
-    top:0; 
-    left:0; 
+    top:50px; 
+    left:12px; 
+    width: 50%;
   } 
+
   
   .hero {
     width: 100vw;
