@@ -28,57 +28,57 @@ var svgElements = [
   // First object MUST be an element
   // Sub-elements may follow (only animate currently catered for)
   { 
-    ellipse:{id:"drp13",fill:"#20923A",cx:"30.25%",cy:"-6%"},
+    ellipse:{id:"drp13",fill:"#EDB92D",cx:"30.25%",cy:"-6%"},
     animate:{rx:{values:"1.35%; 0.15%; 1.35%",dur:"6s"},ry:{values:"-6%; 55%; -6%",dur:"6s"}}
   },
   { 
-    ellipse:{id:"drp14",fill:"#8CBF40",cx:"30.7%",cy:"-6%"},
+    ellipse:{id:"drp14",fill:"#EDB92D",cx:"30.7%",cy:"-6%"},
     animate:{rx:{values:"1.125%; 0.2%; 1.125%;",dur:"5.5s"},ry:{values:"-5%; 53%; -5%",dur:"5.5s"}}
   },
 
   { 
-    ellipse:{id:"drp30",fill:"#084",cx:"45%",cy:"2%",rx:"13.25%"},
+    ellipse:{id:"drp30",fill:"#EDB92D",cx:"45%",cy:"2%",rx:"13.25%"},
     animate:{ry:{values:"-6%; 5%; -6%",dur:"5s"}}
   },
   { 
-    ellipse:{id:"drp31",fill:"#294",cx:"34%",cy:"-6%"},
+    ellipse:{id:"drp31",fill:"#EDB92D",cx:"34%",cy:"-6%"},
     animate:{rx:{values:"1%; 4%; 1%",dur:"5s"},ry:{values:"40%; 24%; 40%",dur:"5s"}}
   },
   { 
-    ellipse:{id:"drp32",fill:"#3a3",cx:"39.15%",cy:"-6%"},
+    ellipse:{id:"drp32",fill:"#EDB92D",cx:"39.15%",cy:"-6%"},
     animate:{rx:{values:"1.5%; 4%; 1.5%",dur:"6s"},ry:{values:"42%; 20%; 42%",dur:"6s"}}
   },
   { 
-    ellipse:{id:"drp33",fill:"#084",cx:"42.8%",cy:"-6%"},
+    ellipse:{id:"drp33",fill:"#EDB92D",cx:"42.8%",cy:"-6%"},
     animate:{rx:{values:"1%; 3%; 1%",dur:"7s"},ry:{values:"40%; 10%; 40%",dur:"7s"}}
   },
   { 
-    ellipse:{id:"drp34",fill:"#294",cx:"48%",cy:"-6%"},
+    ellipse:{id:"drp34",fill:"#EDB92D",cx:"48%",cy:"-6%"},
     animate:{rx:{values:"5%; 1%; 5%; ",dur:"5s"},ry:{values:"0%; 19%; 0%",dur:"5s"}}
   },
   { 
-    ellipse:{id:"drp34a",fill:"#393",cx:"51%",cy:"0%"},
+    ellipse:{id:"drp34a",fill:"#EDB92D",cx:"51%",cy:"0%"},
     animate:{rx:{values:"7%; 1.5%; 7%; ",dur:"6s"},ry:{values:"0%; 14%; 0%",dur:"6s"}}
   },
   { 
-    ellipse:{id:"drp35",fill:"#494",cx:"56%",cy:"-6%"},
+    ellipse:{id:"drp35",fill:"#EDB92D",cx:"56%",cy:"-6%"},
     animate:{rx:{values:"5%; 1%; 5%",dur:"4s"},ry:{values:"5%; 32%; 5%;",dur:"4s"}}
   },
   { 
-    ellipse:{id:"drp36",fill:"#5a5",cx:"56.9%",cy:"-6%"},
+    ellipse:{id:"drp36",fill:"#EDB92D",cx:"56.9%",cy:"-6%"},
     animate:{rx:{values:"1.5%; .6%; 1.5%",dur:"6s"},ry:{values:"15%; 35%; 15%;",dur:"6s"}}
   },
 
   { 
-    ellipse:{id:"drp40",fill:"#084",cx:"63.4%",cy:"3%"},
+    ellipse:{id:"drp40",fill:"#EDB92D",cx:"63.4%",cy:"3%"},
     animate:{rx:{values:"3%; 2.6%; 3%",dur:"5s"},ry:{values:"5%; 10%; 5%;",dur:"5s"}}
   },
   { 
-    ellipse:{id:"drp41",fill:"#494",cx:"62.5%",cy:"-6%"},
+    ellipse:{id:"drp41",fill:"#EDB92D",cx:"62.5%",cy:"-6%"},
     animate:{rx:{values:"0.5%; 1%; 0.5%;",dur:"6s"},ry:{values:"60%; 16%; 60%",dur:"6s"}}
   },
   { 
-    ellipse:{id:"drp42",fill:"#283",cx:"65.25%",cy:"0%"},
+    ellipse:{id:"drp42",fill:"#EDB92D",cx:"65.25%",cy:"0%"},
     animate:{rx:{values:"0.5%; 1%; 0.5%;",dur:"5s"},ry:{values:"40%; 10%; 40%",dur:"5s"}}
   }
 ];
