@@ -15,6 +15,7 @@ body {
 
   #selection {
     font-family: impact, sans-serif;
+    font-weight:bold;
     background-color: #EDB92D;
     opacity:1;
     background-image:url('img/emojiwithsub.png');
