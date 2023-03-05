@@ -4,10 +4,19 @@ body {
     color: #43b3ae;
     background-color: #0E1122;
     font-size: 1.1rem;
-    font-family: sans-serif;
+    font-family: gill sans, sans-serif;
     text-align: center;
     line-height: 1.5;
   }
+
+  h1 {
+    font-family: gill sans, sans-serif;
+  }
+
+  #selection {
+    font-family: impact, sans-serif;
+  }
+
   .visually-hidden {
     position: absolute;
     width: 1px;
