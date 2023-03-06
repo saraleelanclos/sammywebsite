@@ -23,9 +23,10 @@ position: fixed;
 top: 0;
 right: 0;
 z-index:1;
-border: 4px solid #BF40BF;
+border: 2px solid #BF40BF;
 margin: 1px;
 padding:4px;
+text-decoration: none;
 }
 
   #selection {
@@ -34,16 +35,25 @@ padding:4px;
     background-color: #EDB92D;
     opacity: 1;
     background-image: url('img/emojiwithsub.png');
-    background-repeat: repeat-x;
+    background-repeat:no-repeat-x;
     display: inline-block;
     background-size: 300px;
     z-index: 1;
     max-width: 459px;
-    /* width: 0px;
-    height: 170px; */
-   border: 5px solid #43B3AE;
+    top: auto;
+    right: 0;
+   border: 1px solid #43B3AE;
    margin: 1px;
   }
+
+  #selection{ 
+    position:relative; 
+    top:340px; 
+    left:0px; 
+    width: 100%;
+    top: auto;
+    right: 0;
+  } 
 
   .visually-hidden {
     position: absolute;
@@ -57,7 +67,7 @@ padding:4px;
   a:visited {
     color: #BF40BF;
     text-decoration: none;
-    border-bottom: 1px solid rgba(255,255,255, 0.4);
+    /* border-bottom: 1px solid rgba(255,255,255, 0.4); */
     transition: all .3s ease-out;
   }
 
@@ -66,7 +76,21 @@ padding:4px;
     color: #800080;
     border-bottom-color: rgba(255,255,255, 1);
   }
-  
+
+  a#sluttySammysEmail, a#sluttySammysInstagram, a#sluttySammysTelephone, 
+  a#sluttySammysEmail:visited, a#sluttySammysInstagram:visited, a#sluttySammysTelephone:visited {
+    color: #BF40BF;
+    text-decoration:line !important;
+    border-bottom: 1px solid rgba(255,255,255, 0.4);
+    transition: all .3s ease-out;
+ }
+
+ a#sluttySammysEmail:hover, a#sluttySammysInstagram:hover, a#sluttySammysTelephone:hover, 
+ a#sluttySammysEmail:focus, a#sluttySammysInstagram:focus, a#sluttySammysTelephone:focus {
+  color: #800080;
+  border-bottom-color: rgba(255,255,255, 1);
+}
+
   img {
     max-width: 100%;
     height: auto;
@@ -92,13 +116,14 @@ padding:4px;
     position:fixed;
 } */
 
-  #selection{ 
-    position:fixed; 
+  /* #selection{ 
+    position:relative; 
     top:340px; 
     left:0px; 
-    width: 50%;
-    
-  } 
+    width: 100%;
+    top: auto;
+    right: 0;
+  }  */
   
   .hero {
     width: 100vw;
