@@ -1,3 +1,8 @@
+function showhide(id) {
+  var e = document.getElementById(id);
+  e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+
 // https://gist.github.com/bendc/d7f3dbc83d0f65ca0433caf90378cd95
 var supportsES6=function(){try{return new Function("(a=0)=>a"),!0}catch(n){return!1}};
 //console.log("supportsES6: " + supportsES6());
