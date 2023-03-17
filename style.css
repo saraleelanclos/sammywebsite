@@ -86,8 +86,8 @@
 }
 
 #hamburger-menu #sidebar-menu {
-  font-family: impact, sans-serif !important;
-  font-weight:bold !important;
+  font-family: impact, sans-serif;
+  font-weight:bold;
   visibility: hidden;
   position: fixed;
   top: 0;
@@ -101,23 +101,23 @@
 }
 
 #hamburger-menu ul {
-  font-family: impact, sans-serif !important;
-  font-weight:bold !important;
+  font-family: impact, sans-serif;
+  font-weight:bold;
   text-decoration: none;
   padding-left: 0px;
 }
 
 #hamburger-menu li {
-  font-family: impact, sans-serif !important;
-  font-weight:bold !important;
+  font-family: impact, sans-serif;
+  font-weight:bold;
   text-decoration: none;
   list-style-type: none;
   line-height: 3rem;
 }
 
 #hamburger-menu a {
-  font-family: impact, sans-serif !important;
-  font-weight:bold !important;
+  font-family: impact, sans-serif;
+  font-weight:bold;
   color: #BF40BF;
   font-size: 1.3rem;
   text-decoration: none;
