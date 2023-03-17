@@ -64,7 +64,8 @@
   z-index:1;
   position: fixed;
   top: 4px;
-  right: 0px;
+  /* right: 0px; */
+  left:0px;
   width: 40px;
   height: 40px;
   display: none;
@@ -75,12 +76,12 @@
   margin: 1px;
   background: linear-gradient(
     to bottom, 
-      #800080, #800080 20%, 
-      #0E1122 20%, #0E1122 40%, 
-      #800080 40%, #800080 60%, 
-      #0E1122 60%, #0E1122 80%, 
-      #800080 80%, #800080 100%
-    );
+    #800080, #800080 20%, 
+    #0E1122 20%, #0E1122 40%, 
+    #800080 40%, #800080 60%, 
+    #0E1122 60%, #0E1122 80%, 
+    #800080 80%, #800080 100%
+  );
 }
 
 #hamburger-menu #sidebar-menu {
