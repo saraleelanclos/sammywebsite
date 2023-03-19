@@ -149,6 +149,21 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  /* .hero {
+    display: none;
+  } */
+  .hero_ttl {
+    display: none;
+  }
+  /* .svg-drips {
+    display: none;
+  } */
+  /* .hero_fg {
+    display: none;
+  } */
+}
+
 body {
   margin:0;
   padding-bottom: 3rem;
@@ -267,10 +282,6 @@ header #logo{
   height:auto; 
   max-width:400px;
   z-index:-1;
-  /* border-radius: 200px;
-  box-sizing: border-box;
-  background-color: #DDD;
-  border: 5px solid #cfd8dc; */
 }
 
 .upperleftlogo{
