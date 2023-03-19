@@ -152,7 +152,7 @@
 body {
   margin:0;
   padding-bottom: 3rem;
-  color: #43B3AE;
+  color: #2F948D;
   background-color: #0E1122;
   font-size: 1.1rem;
   font-family: gill sans, sans-serif;
@@ -162,6 +162,7 @@ body {
 
 h1 {
   font-family: gill sans, sans-serif;
+  -webkit-text-stroke: 2px #800080;
 }
 
 h2 {
@@ -277,6 +278,15 @@ header #logo{
   right: 0px;
   z-index:-1;
 }
+
+.uparrow {
+  position:fixed;
+  bottom:10px;
+  right: 0px;
+  width:100%; 
+  height:auto; 
+  max-width:60px;
+}
   /* #logo{ 
     position:fixed; 
     top:50px; 
@@ -327,7 +337,7 @@ header #logo{
   font-size: 1.75rem;
   font-weight: 600;
   text-transform: none;
-  color: #43B3AE;
+  color: #2F948D;
 }
   
 .svg-text {
