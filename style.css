@@ -150,18 +150,9 @@
 }
 
 @media screen and (max-width: 750px) {
-  /* .hero {
-    display: none;
-  } */
   .hero_ttl {
     display: none;
   }
-  /* .svg-drips {
-    display: none;
-  } */
-  /* .hero_fg {
-    display: none;
-  } */
 }
 
 body {
