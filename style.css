@@ -403,7 +403,7 @@ body.about, .contact, .thankyou {
   background-position: center;
   background-repeat: no-repeat;
 }
-body.offerings, .events {
+body.menu, .events {
   background-image: url('img/yellowslime.png');
   background-size: contain;
   background-repeat: no-repeat;
