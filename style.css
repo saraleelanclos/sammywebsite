@@ -400,6 +400,7 @@ text {
 body.about, .contact, .thankyou {
   background-image: url('img/yellowslime.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 body.offerings, .events {
