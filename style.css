@@ -1,9 +1,9 @@
-html {
+/* html {
 	cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="40" width="40"><text y="28" font-size="32">🥪</text><path d="M0,2 L0,0 L2,0" fill="%2334A62F"/></svg>'), auto;
 }
 body {
 	cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="40" width="40"><text y="28" font-size="32">🥪</text><path d="M0,2 L0,0 L2,0" fill="%2334A62F"/></svg>'), auto;
-}
+} */
 
 .overlay{
   position: fixed;
