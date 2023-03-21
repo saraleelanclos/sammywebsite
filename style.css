@@ -426,13 +426,13 @@ text {
   background-size: contain;
 }
 
-body.about, .contact, .merch {
+body.about, .thankyou, .contact, .merch {
   background-image: url('img/yellowslime.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-body.menu, .events {
+body.menu, .events, .partners {
   background-image: url('img/yellowslime.png');
   background-size: contain;
   background-repeat: no-repeat;
