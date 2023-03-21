@@ -1,3 +1,8 @@
+@font-face {
+  font-family: slackeyRegular;
+  src: url('LondrinaSolid-Regular.ttf');
+}
+
 html {
 	cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="40" width="40"><text y="28" font-size="32">🥪</text><path d="M0,2 L0,0 L2,0" fill="%2334A62F"/></svg>'), auto;
 }
@@ -41,7 +46,8 @@ body {
 }
 
 #main-menu li {
-  font-family: gill sans, sans-serif;
+  /* font-family: gill sans, sans-serif; */
+  font-family:slackeyRegular;
   font-weight: bold;
   list-style-type: none;
   font-size: 2rem;
@@ -49,7 +55,8 @@ body {
 }
 
 #main-menu a {
-  font-family: gill sans, sans-serif;
+  /* font-family: gill sans, sans-serif; */
+  font-family:slackeyRegular;
   color: #BF40BF;
   font-size: 1.0rem;
   text-decoration: none;
@@ -67,7 +74,8 @@ body {
 }
 
 #hamburger-menu {
-  font-family: impact, sans-serif;
+  /* font-family: impact, sans-serif; */
+  font-family:slackeyRegular;
   font-weight:bold;
   z-index:1;
   position: fixed;
@@ -92,7 +100,8 @@ body {
 }
 
 #hamburger-menu #sidebar-menu {
-  font-family: impact, sans-serif;
+  /* font-family: impact, sans-serif; */
+  font-family: slackeyRegular;
   font-weight:bold;
   visibility: hidden;
   position: fixed;
@@ -107,14 +116,16 @@ body {
 }
 
 #hamburger-menu ul {
-  font-family: impact, sans-serif;
+  /* font-family: impact, sans-serif; */
+  font-family: slackeyRegular;
   font-weight:bold;
   text-decoration: none;
   padding-left: 0px;
 }
 
 #hamburger-menu li {
-  font-family: impact, sans-serif;
+  /* font-family: impact, sans-serif; */
+  font-family: slackeyRegular;
   font-weight:bold;
   text-decoration: none;
   list-style-type: none;
@@ -122,7 +133,8 @@ body {
 }
 
 #hamburger-menu a {
-  font-family: impact, sans-serif;
+  /* font-family: impact, sans-serif; */
+  font-family: slackeyRegular;
   font-weight:bold;
   color: #BF40BF;
   font-size: 1.3rem;
@@ -168,20 +180,37 @@ body {
   color: #2F948D;
   background-color: #0E1122;
   font-size: 1.1rem;
-  font-family: gill sans, sans-serif;
+  /* font-family: gill sans, sans-serif; */
+  font-family: slackeyRegular;
   text-align: center;
   line-height: 1.5;
 }
 
 h1 {
-  font-family: gill sans, sans-serif;
+  font-family: slackeyRegular;;
+  /* font-family: gill sans, sans-serif; */
   -webkit-text-stroke: 2px #800080;
 }
 
-h2 {
-  font-family: gill sans, sans-serif;
+h2#sandwiches {
+  /* font-family: gill sans, sans-serif; */
+  font-family: slackeyRegular;
   text-decoration: underline overline;
   font-style:italic;
+}
+h2#snacktime {
+  /* font-family: gill sans, sans-serif; */
+  font-family: slackeyRegular;
+  font-style:italic;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+h2#tshirt {
+  /* font-family: gill sans, sans-serif; */
+  font-family: slackeyRegular;
+  font-style:italic;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
 }
 
 img {
@@ -397,7 +426,7 @@ text {
   background-size: contain;
 }
 
-body.about, .contact, .thankyou {
+body.about, .contact, .merch {
   background-image: url('img/yellowslime.png');
   background-size: cover;
   background-position: center;
