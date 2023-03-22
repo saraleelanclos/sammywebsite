@@ -329,10 +329,16 @@ header #logo {
   margin: 0px auto 0px auto;
   padding: 10px;
 }
-
+#thankyoutext {
+  opacity: 0.9;
+  background-color: #0E1122;
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 10px;
+}
 p {
   opacity: 1.0;
-} 
+}
 
 .leftImageTop {
   position: absolute;
