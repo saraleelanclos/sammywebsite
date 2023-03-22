@@ -2,6 +2,10 @@
   font-family:londrinaSolidRegular;
   src: url('LondrinaSolid-Regular.ttf');
 }
+@font-face {
+  font-family:londrinaSolidBlack;
+  src: url('LondrinaSolid-Black.ttf');
+}
 
 html {
 	cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="40" width="40"><text y="28" font-size="32">🥪</text><path d="M0,2 L0,0 L2,0" fill="%2334A62F"/></svg>'), auto;
@@ -10,7 +14,7 @@ body {
 	cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="40" width="40"><text y="28" font-size="32">🥪</text><path d="M0,2 L0,0 L2,0" fill="%2334A62F"/></svg>'), auto;
 }
 
-.overlay{
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -46,8 +50,7 @@ body {
 }
 
 #main-menu li {
-  /* font-family: gill sans, sans-serif; */
-  font-family:londrinaSolidRegular;
+  font-family:londrinaSolidBlack;
   font-weight: bold;
   list-style-type: none;
   font-size: 2rem;
@@ -55,8 +58,7 @@ body {
 }
 
 #main-menu a {
-  /* font-family: gill sans, sans-serif; */
-  font-family:londrinaSolidRegular;
+  font-family:londrinaSolidBlack;
   color: #BF40BF;
   font-size: 1.0rem;
   text-decoration: none;
@@ -74,10 +76,9 @@ body {
 }
 
 #hamburger-menu {
-  /* font-family: impact, sans-serif; */
-  font-family:londrinaSolidRegular;
+  font-family:londrinaSolidBlack;
   font-weight:bold;
-  z-index:1;
+  z-index:2;
   position: fixed;
   top: 2px;
   left:0px;
@@ -100,8 +101,7 @@ body {
 }
 
 #hamburger-menu #sidebar-menu {
-  /* font-family: impact, sans-serif; */
-  font-family: londrinaSolidRegular;
+  font-family: londrinaSolidBlack;
   font-weight:bold;
   visibility: hidden;
   position: fixed;
@@ -116,16 +116,14 @@ body {
 }
 
 #hamburger-menu ul {
-  /* font-family: impact, sans-serif; */
-  font-family: londrinaSolidRegular;
+  font-family: londrinaSolidBlack;
   font-weight:bold;
   text-decoration: none;
   padding-left: 0px;
 }
 
 #hamburger-menu li {
-  /* font-family: impact, sans-serif; */
-  font-family: londrinaSolidRegular;
+  font-family: londrinaSolidBlack;
   font-weight:bold;
   text-decoration: none;
   list-style-type: none;
@@ -133,8 +131,7 @@ body {
 }
 
 #hamburger-menu a {
-  /* font-family: impact, sans-serif; */
-  font-family: londrinaSolidRegular;
+  font-family: londrinaSolidBlack;
   font-weight:bold;
   color: #BF40BF;
   font-size: 1.3rem;
@@ -154,7 +151,7 @@ body {
   visibility: visible;
   left: 0;
 }
-#hamburger-input:checked ~ .overlay{
+#hamburger-input:checked ~ .overlay {
   visibility: visible;
   opacity: 0.4;
 }
@@ -187,27 +184,23 @@ body {
 }
 
 h1 {
-  font-family: londrinaSolidRegular;;
-  /* font-family: gill sans, sans-serif; */
+  font-family: londrinaSolidBlack;
   -webkit-text-stroke: 2px #800080;
 }
 
 h2#sandwiches {
-  /* font-family: gill sans, sans-serif; */
-  font-family: londrinaSolidRegular;
+  font-family: londrinaSolidBlack;
   text-decoration: underline overline;
   font-style:italic;
 }
 h2#snacktime {
-  /* font-family: gill sans, sans-serif; */
-  font-family: londrinaSolidRegular;
+  font-family: londrinaSolidBlack;
   font-style:italic;
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
 h2#tshirt {
-  /* font-family: gill sans, sans-serif; */
-  font-family: londrinaSolidRegular;
+  font-family: londrinaSolidBlack;
   font-style:italic;
   text-decoration-line: underline;
   text-decoration-style: dotted;
@@ -300,8 +293,7 @@ a#sluttySammysEmail:focus, a#sluttySammysInstagram:focus, a#sluttySammysTelephon
   border-bottom-color: #EDB92D;
 }
 
-header #logo{ 
-  /* position:fixed;  */
+header #logo { 
   position:absolute; 
   top:20px; 
   left:0px; 
@@ -311,7 +303,7 @@ header #logo{
   z-index:-1;
 }
 
-.upperleftlogo{
+.upperleftlogo {
   position: absolute;
   width:100%; 
   height:auto; 
@@ -329,6 +321,99 @@ header #logo{
   height:auto; 
   max-width:60px;
 }
+
+#abouttext {
+  opacity: 0.9;
+  background-color: #0E1122;
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 10px;
+}
+
+p {
+  opacity: 1.0;
+} 
+
+.leftImageTop {
+  position: absolute;
+  width: 90%; 
+  height: auto; 
+  max-width: 300px;
+  top: 100px;
+  left: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  transform: rotate(-20deg)
+}
+
+.leftImageTopResponsive {
+  height: auto;
+  width: 90%;
+  max-width: 300px
+}
+
+.leftImageBottom {
+  position: absolute;
+  width: 90%; 
+  height: auto; 
+  max-width: 300px;
+  bottom: 60px;
+  left: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -2;
+  transform: rotate(-10deg)
+}
+
+.leftImageBottomResponsive {
+  height: auto;
+  width: 90%;
+  max-width: 300px;
+}
+
+.rightImageBottom {
+  position: absolute;
+  width: 90%; 
+  height: auto; 
+  max-width: 300px;
+  bottom: 90px;
+  right: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  transform: rotate(10deg);
+}
+
+.rightImageBottomResponsive {
+  height: auto;
+  width: 90%;
+  max-width: 300px;
+}
+
+.bagelImage{
+  position: absolute;
+  width: 90%; 
+  height: auto; 
+  max-width: 80px;
+  top: 90px;
+  left: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  transform: rotate(60deg);
+}
+
+.bagelImageResponsive {
+  height: auto;
+  width: 90%;
+  max-width: 80px;
+}
+
   /* #logo{ 
     position:fixed; 
     top:50px; 
@@ -432,7 +517,7 @@ body.about, .thankyou, .contact, .merch {
   background-position: center;
   background-repeat: no-repeat;
 }
-body.menu, .events, .partners {
+body.menu, .events {
   background-image: url('img/yellowslime.png');
   background-size: contain;
   background-repeat: no-repeat;
